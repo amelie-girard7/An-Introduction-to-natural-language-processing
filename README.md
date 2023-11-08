@@ -169,7 +169,7 @@ This visualization shows 'salt' as the most prominent ingredient in the pizza co
 
 **Document classification with tf-idf**
 
-![Alt text](./src/img/classification.png)
+<img src="./src/img/classification.png" width="70%" height="70%">
 
 A classifier is an algorithm that takes in input a vector representation of an object, and outputs its "class".
 
