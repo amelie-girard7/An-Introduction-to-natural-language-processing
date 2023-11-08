@@ -157,7 +157,7 @@ Here is a bar graph illustrating the tf-idf values for different terms. In this 
 
 **Applying the concept**
 Given a book with pizza recipes in a collection of cooking books, what would be plausible tf and idf values for the following words? (Pick A or B)
-<img src="./src/img/pizza.png" width="20%" height="20%">
+<img src="./src/img/pizza.png" width="40%" height="40%">
 
 Here is the bar graph showing the term frequency (tf), inverse document frequency (idf), and tf-idf scores for the terms 'eggs', 'tomatoes', and 'salt' from the pizza cookbook document. 
 
