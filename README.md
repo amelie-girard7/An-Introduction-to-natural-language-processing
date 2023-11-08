@@ -163,7 +163,8 @@ Given a book with pizza recipes in a collection of cooking books, what would be 
 Here is the bar graph showing the term frequency (tf), inverse document frequency (idf), and tf-idf scores for the terms 'eggs', 'tomatoes', and 'salt' from the pizza cookbook document. 
 
 This visualization shows 'salt' as the most prominent ingredient in the pizza cookbook, with 'tomatoes' also being a significant but slightly less prominent ingredient. The tf-idf score for 'salt' remains the highest, indicating its importance in the context of the pizza cookbook, followed by 'tomatoes' and 'eggs'.
-<img src="./src/img/tf-idf-cook.png" width="100%" height="100%">
+
+<img src="./src/img/tf-idf-cook.png" width="70%" height="70%">
 [Access the code](./src/img/tf-idf-cook.ipynb)
 
 **Document classification with tf-idf**
