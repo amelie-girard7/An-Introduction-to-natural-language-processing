@@ -99,11 +99,11 @@ Dialogue systems represent perhaps the most sophisticated NLP technology emergin
 
 User and customer engagement is enhanced through tools like Los Angeles Chip, which, as described by Los Angeles CIO Ted Ross, serves as a round-the-clock, accessible guide on conducting business with the city.
 
-<img src="./src/img/los-angeles-chip.png" width="70%" height="70%">
+<img src="./src/img/los-angeles-chip.png" width="50%" height="50%">
 
 Additionally, Florence functions as a health monitoring and medication reminder system.
 
-<img src="./src/img/florence-health.png" width="70%" height="70%">
+<img src="./src/img/florence-health.png" width="50%" height="50%">
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
@@ -118,11 +118,10 @@ The term frequency \( tf(t, d) \) of a term \( t \) in a document \( d \) is def
 
 <img src="./src/img/vectors-numbers.png" width="40%" height="40%">
 
-\[
+$$
 tf(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d}
-\]
+$$
 
-<img src="./src/img/vectors-numbers.png" width="60%" height="60%">
 
 In some cases, the term frequency is not normalized, especially when we are interested in the raw frequency.
 
@@ -158,7 +157,8 @@ Here is a bar graph illustrating the tf-idf values for different terms. In this 
 
 **Applying the concept**
 Given a book with pizza recipes in a collection of cooking books, what would be plausible tf and idf values for the following words? (Pick A or B)
-![Alt text](./src/img/pizza.png)
+
+<img src="./src/img/pizza.png" width="70%" height="70%">
 
 Here is the bar graph showing the term frequency (tf), inverse document frequency (idf), and tf-idf scores for the terms 'eggs', 'tomatoes', and 'salt' from the pizza cookbook document. 
 
@@ -168,7 +168,7 @@ This visualization shows 'salt' as the most prominent ingredient in the pizza co
 
 **Document classification with tf-idf**
 
-![Alt text](./src/img/classification.png)
+<img src="./src/img/classification.png" width="100%" height="100%">
 
 A classifier is an algorithm that takes in input a vector representation of an object, and outputs its "class".
 
@@ -298,7 +298,7 @@ The selection of the number of topics, denoted by \( T \), is usually determined
 
 **Example: classification based on topic vectors**
 
-<img src="./src/img/topic-vector.png" width="80%" height="90%">
+<img src="./src/img/topic-vector.png" width="80%" height="80%">
 
 # How to become an NLP developer?
 
