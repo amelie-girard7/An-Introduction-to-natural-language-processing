@@ -64,13 +64,13 @@ Note: There are numerous additional tasks such as entailement recognition , rela
 #### Named-entity recognition
 Named-entity recognition (NER) seeks to pinpoint and extract "named entities" from text, covering entities like person names, places, organizations, and various other specific categories. It's beneficial for categorizing text, detecting intent, identifying relationships, and build knowledge graphs.
 
-<img src="./src/img/ner.png" width="80%" height="auto">
+<img src="./src/img/ner.png" width="60%" height="auto">
 
 REX (Rosette Entity Extractor, BASIS Technology)
 
 #### Sentiment analysis
 Sentiment analysis is designed to determine the emotional tone behind a text, which could be anything from a tweet to an email:
-<img src="./src/img/sentiment.png" width="50%" height="auto">
+<img src="./src/img/sentiment.png" width="40%" height="auto">
 
 
 - At its most basic, it involves identifying particular keywords that indicate sentiment.
@@ -79,11 +79,11 @@ Sentiment analysis is designed to determine the emotional tone behind a text, wh
 #### Topic modelling
 Topic modeling identifies the primary **topics** across a collection of documents, offering a snapshot of their collective content. Additionally, it ascertains **the proportion of these topics** within each document. 
 These topic proportions can be used to automatically categorise, classify, or cluster each document, aiding in the organisation of the collection.
-<img src="./src/img/topic-modelling.png" width="90%" height="auto">
+<img src="./src/img/topic-modelling.png" width="40%" height="auto">
 
 #### Summarisation
 Abstractive summarization creates entirely new content. Below is an illustration of extractive text summarisation provided by Salesforce .
-<img src="./src/img/summarisation.png" width="70%" height="auto">
+<img src="./src/img/summarisation.png" width="40%" height="auto">
 (courtesy of Frase.io)
 
 #### Machine translation
@@ -107,7 +107,7 @@ Additionally, Florence functions as a health monitoring and medication reminder 
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
-<img src="./src/img/vectors.png" width="60%" height="60%">
+<img src="./src/img/vectors.png" width="50%" height="50%">
 
 ### tf-idf
 
