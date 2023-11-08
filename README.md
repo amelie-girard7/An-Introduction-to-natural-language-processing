@@ -151,7 +151,7 @@ Conversely, character names such as 'petruchio' in "THE TAMING OF THE SHREW" or 
 
 Here is a bar graph illustrating the tf-idf values for different terms. In this visualization, the term "the" has a tf-idf value of 0, reflecting its lack of importance due to its high frequency across all documents. The other terms, which are names of characters from Shakespeare's plays, have higher tf-idf values, indicating their significance and rarity across the corpus. The height of each bar represents the tf-idf score, demonstrating how the metric helps in identifying key terms within the text
 
-<img src="./src/img/tf-idf.png" width="100%" height="100%">
+<img src="./src/img/tf-idf.png" width="70%" height="70%">
 
 [Access the code](./src/img/tf-idf.ipynb)
 
