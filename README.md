@@ -1,5 +1,5 @@
 # An-Introduction-to-natural-language-processing
-The materials in this repository are my personal notes from Professor Massimo Piccardi's Natural Language Processing course, numbered 32931 TRM, at the University of Technology Sydney (UTS).
+The materials in this repository are my personal notes from Professor Massimo Piccardi's Natural Language Processing course, 32931 TRM, at the University of Technology Sydney (UTS).
 
 # Table of Contents
 
@@ -30,13 +30,12 @@ Entering the 2000s, these advancements propelled speech recognition forward, lea
 
 Today, the 2020s are defined by transformer-based models and large language models like GPT-3, which have dramatically extended the capabilities of NLP. These models, leveraging self-attention mechanisms, have not only set new benchmarks in language generation and translation but have also expanded AI's reach into creative domains previously thought exclusive to human ingenuity.
 
-<img src="./src/img/nlp_history.png" width="50%" height="auto">
+<img src="./src/img/nlp_history.png" width="90%" height="auto">
 
 ### Contemporary NLP: key enablers
 Three primary catalysts have propelled the swift expansion of NLP:
 1. Enhanced ***algorithms*** that achieve practical accuracy levels in real-world applications.
 2. Upgraded ***computational and networking infrastructures***, including GPUs, TPUs, FPGAs, and extensive cloud and edge computing resources. 
-<img src="./src/img/computing.png" width="10%" height="auto">
 3. The abundance of ***textual data***, which is now widely available in digital format from a diverse array of sources.
 
 ### NLP: a profusion of data
@@ -99,11 +98,11 @@ Dialogue systems represent perhaps the most sophisticated NLP technology emergin
 
 User and customer engagement is enhanced through tools like Los Angeles Chip, which, as described by Los Angeles CIO Ted Ross, serves as a round-the-clock, accessible guide on conducting business with the city.
 
-<img src="./src/img/los-angeles-chip.png" width="70%" height="70%">
+<img src="./src/img/los-angeles-chip.png" width="40%" height="70%">
 
 Additionally, Florence functions as a health monitoring and medication reminder system.
 
-<img src="./src/img/florence-health.png" width="70%" height="70%">
+<img src="./src/img/florence-health.png" width="40%" height="70%">
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
@@ -116,30 +115,32 @@ The mathematical formulas for term frequency (tf) and inverse document frequency
 1. **Term Frequency (tf)**: 
 The term frequency \( tf(t, d) \) of a term \( t \) in a document \( d \) is defined as the number of times that term \( t \) occurs in document \( d \), sometimes normalized by dividing by the total number of terms in the document:
 
+<img src="./src/img/vectors-numbers.png" width="40%" height="40%">
+
 \[
 tf(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d}
 \]
 
-<img src="./src/img/vectors-numbers.png" width="60%" height="60%">
+
 
 In some cases, the term frequency is not normalized, especially when we are interested in the raw frequency.
 
 2. **Inverse Document Frequency (idf)**:
 The inverse document frequency is a measure of how much information the word provides, that is, whether the term is common or rare across all documents. It is calculated as the logarithm of the number of documents divided by the number of documents that contain the term \( t \). Plus one is often added to the denominator to avoid division by zero and then take the log:
 
-\[
+$$
 idf(t, D) = \log \left( \frac{N}{1 + |\{d \in D : t \in d\}|} \right)
-\]
+$$
 
 Where:
-- \( N \) is the total number of documents in the corpus \( D \)
+- ( N \) is the total number of documents in the corpus \( D \)
 - \( |\{d \in D : t \in d\}| \) is the number of documents where the term \( t \) appears (i.e., \( tf(t, d) \neq 0 \))
 
 When you combine these two metrics, you get the tf-idf score for a term in a document, which is simply the product of tf and idf:
 
-\[
+$$
 tfidf(t, d, D) = tf(t, d) \times idf(t, D)
-\]
+$$
 
 This score is often used in information retrieval and text mining as a weighting factor in searches of information repositories, text summarization, and user modeling. The tf-idf weight increases proportionally to the number of times a word appears in the document and is offset by the number of documents in the corpus that contain the word, which helps to adjust for the fact that some words appear more frequently in general.
 
@@ -150,23 +151,24 @@ Conversely, character names such as 'petruchio' in "THE TAMING OF THE SHREW" or 
 
 Here is a bar graph illustrating the tf-idf values for different terms. In this visualization, the term "the" has a tf-idf value of 0, reflecting its lack of importance due to its high frequency across all documents. The other terms, which are names of characters from Shakespeare's plays, have higher tf-idf values, indicating their significance and rarity across the corpus. The height of each bar represents the tf-idf score, demonstrating how the metric helps in identifying key terms within the text
 
-<img src="./src/img/tf-idf.png" width="100%" height="100%">
+<img src="./src/img/tf-idf.png" width="90%" height="90%">
 
 [Access the code](./src/img/tf-idf.ipynb)
 
 **Applying the concept**
 Given a book with pizza recipes in a collection of cooking books, what would be plausible tf and idf values for the following words? (Pick A or B)
-![Alt text](./src/img/pizza.png)
+
+<img src="./src/img/pizza.png" width="80%" height="80%">
 
 Here is the bar graph showing the term frequency (tf), inverse document frequency (idf), and tf-idf scores for the terms 'eggs', 'tomatoes', and 'salt' from the pizza cookbook document. 
 
 This visualization shows 'salt' as the most prominent ingredient in the pizza cookbook, with 'tomatoes' also being a significant but slightly less prominent ingredient. The tf-idf score for 'salt' remains the highest, indicating its importance in the context of the pizza cookbook, followed by 'tomatoes' and 'eggs'.
-<img src="./src/img/tf-idf-cook.png" width="100%" height="100%">
+<img src="./src/img/tf-idf-cook.png" width="100%" height="80%">
 [Access the code](./src/img/tf-idf-cook.ipynb)
 
 **Document classification with tf-idf**
 
-![Alt text](./src/img/classification.png)
+<img src="./src/img/classification.png" width="100%" height="60%">
 
 A classifier is an algorithm that takes in input a vector representation of an object, and outputs its "class".
 
@@ -295,8 +297,7 @@ The selection of the number of topics, denoted by \( T \), is usually determined
 
 **Example: classification based on topic vectors**
 
-![topic-vector](./src/img/topic-vector.png)
-
+<img src="./src/img/topic-vector.png" width="80%" height="90%">
 
 # How to become an NLP developer?
 
