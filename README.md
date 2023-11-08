@@ -99,11 +99,11 @@ Dialogue systems represent perhaps the most sophisticated NLP technology emergin
 
 User and customer engagement is enhanced through tools like Los Angeles Chip, which, as described by Los Angeles CIO Ted Ross, serves as a round-the-clock, accessible guide on conducting business with the city.
 
-<img src="./src/img/los-angeles-chip.png" width="30%" height="30%">
+<img src="./src/img/los-angeles-chip.png" width="20%" height="20%">
 
 Additionally, Florence functions as a health monitoring and medication reminder system.
 
-<img src="./src/img/florence-health.png" width="30%" height="30%">
+<img src="./src/img/florence-health.png" width="20%" height="20%">
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
