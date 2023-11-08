@@ -121,7 +121,7 @@ The term frequency \( tf(t, d) \) of a term \( t \) in a document \( d \) is def
 tf(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d}
 \]
 
-<img src="./src/img/vectors-numbers.png" width="60%" height="60%">
+<img src="./src/img/vectors-numbers.png" width="40%" height="40%">
 
 In some cases, the term frequency is not normalized, especially when we are interested in the raw frequency.
 
