@@ -64,7 +64,7 @@ Note: There are numerous additional tasks such as entailement recognition , rela
 #### Named-entity recognition
 Named-entity recognition (NER) seeks to pinpoint and extract "named entities" from text, covering entities like person names, places, organizations, and various other specific categories. It's beneficial for categorizing text, detecting intent, identifying relationships, and build knowledge graphs.
 
-<img src="./src/img/ner.png" width="60%" height="auto">
+<img src="./src/img/ner.png" width="40%" height="auto">
 
 REX (Rosette Entity Extractor, BASIS Technology)
 
