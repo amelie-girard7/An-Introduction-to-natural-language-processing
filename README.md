@@ -1,5 +1,5 @@
 # An-Introduction-to-natural-language-processing
-This repository contain my notes from the course  of Prof. Massimo Piccardi, 32931 TRM, Natural Language Processing at the UTS.
+The materials in this repository are my personal notes from Professor Massimo Piccardi's Natural Language Processing course, numbered 32931 TRM, at the University of Technology Sydney (UTS).
 
 # Table of Contents
 
