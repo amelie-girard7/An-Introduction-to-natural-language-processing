@@ -79,7 +79,7 @@ Sentiment analysis is designed to determine the emotional tone behind a text, wh
 #### Topic modelling
 Topic modeling identifies the primary **topics** across a collection of documents, offering a snapshot of their collective content. Additionally, it ascertains **the proportion of these topics** within each document. 
 These topic proportions can be used to automatically categorise, classify, or cluster each document, aiding in the organisation of the collection.
-<img src="./src/img/topic-modelling.png" width="40%" height="auto">
+<img src="./src/img/topic-modelling.png" width="50%" height="auto">
 
 #### Summarisation
 Abstractive summarization creates entirely new content. Below is an illustration of extractive text summarisation provided by Salesforce .
