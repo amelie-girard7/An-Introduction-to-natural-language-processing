@@ -153,7 +153,7 @@ Here is a bar graph illustrating the tf-idf values for different terms. In this 
 
 <img src="./src/img/tf-idf.png" width="70%" height="70%">
 
-![Access the code](./src/tf-idf.ipynb)
+[Access the code](./src/tf-idf.ipynb)
 
 **Applying the concept**
 Given a book with pizza recipes in a collection of cooking books, what would be plausible tf and idf values for the following words? (Pick A or B)
