@@ -63,13 +63,13 @@ Note: There are numerous additional tasks such as entailement recognition , rela
 #### Named-entity recognition
 Named-entity recognition (NER) seeks to pinpoint and extract "named entities" from text, covering entities like person names, places, organizations, and various other specific categories. It's beneficial for categorizing text, detecting intent, identifying relationships, and build knowledge graphs.
 
-<img src="./src/img/ner.png" width="80%" height="auto">
+<img src="./src/img/ner.png" width="40%" height="auto">
 
 REX (Rosette Entity Extractor, BASIS Technology)
 
 #### Sentiment analysis
 Sentiment analysis is designed to determine the emotional tone behind a text, which could be anything from a tweet to an email:
-<img src="./src/img/sentiment.png" width="50%" height="auto">
+<img src="./src/img/sentiment.png" width="40%" height="auto">
 
 
 - At its most basic, it involves identifying particular keywords that indicate sentiment.
@@ -78,17 +78,18 @@ Sentiment analysis is designed to determine the emotional tone behind a text, wh
 #### Topic modelling
 Topic modeling identifies the primary **topics** across a collection of documents, offering a snapshot of their collective content. Additionally, it ascertains **the proportion of these topics** within each document. 
 These topic proportions can be used to automatically categorise, classify, or cluster each document, aiding in the organisation of the collection.
-<img src="./src/img/topic-modelling.png" width="90%" height="auto">
+
+<img src="./src/img/topic-modelling.png" width="60%" height="auto">
 
 #### Summarisation
 Abstractive summarization creates entirely new content. Below is an illustration of extractive text summarisation provided by Salesforce .
-<img src="./src/img/summarisation.png" width="70%" height="auto">
+<img src="./src/img/summarisation.png" width="40%" height="auto">
 (courtesy of Frase.io)
 
 #### Machine translation
 Machine translation stands as one of the most effective uses of NLP. Given the multitude of language combinations, an intermediary language is sometimes employed (for instance, Filipino to English, then English to Catalan). Google Translate now has the capability to interpret between 109 languages by crawling the web and learning from content that appears to be translated versions of other pages.
 
-<img src="./src/img/translation.png" width="60%" height="auto">
+<img src="./src/img/translation.png" width="40%" height="auto">
 
 #### Dialogue systems
 Dialogue systems represent perhaps the most sophisticated NLP technology emerging today. Key types include:
@@ -98,15 +99,15 @@ Dialogue systems represent perhaps the most sophisticated NLP technology emergin
 
 User and customer engagement is enhanced through tools like Los Angeles Chip, which, as described by Los Angeles CIO Ted Ross, serves as a round-the-clock, accessible guide on conducting business with the city.
 
-<img src="./src/img/los-angeles-chip.png" width="40%" height="70%">
+<img src="./src/img/los-angeles-chip.png" width="70%" height="70%">
 
 Additionally, Florence functions as a health monitoring and medication reminder system.
 
-<img src="./src/img/florence-health.png" width="40%" height="70%">
+<img src="./src/img/florence-health.png" width="70%" height="70%">
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
-<img src="./src/img/vectors.png" width="60%" height="60%">
+<img src="./src/img/vectors.png" width="50%" height="50%">
 
 ### tf-idf
 
@@ -121,7 +122,7 @@ The term frequency \( tf(t, d) \) of a term \( t \) in a document \( d \) is def
 tf(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{\text{Total number of terms in document } d}
 \]
 
-
+<img src="./src/img/vectors-numbers.png" width="60%" height="60%">
 
 In some cases, the term frequency is not normalized, especially when we are interested in the raw frequency.
 
@@ -151,30 +152,30 @@ Conversely, character names such as 'petruchio' in "THE TAMING OF THE SHREW" or 
 
 Here is a bar graph illustrating the tf-idf values for different terms. In this visualization, the term "the" has a tf-idf value of 0, reflecting its lack of importance due to its high frequency across all documents. The other terms, which are names of characters from Shakespeare's plays, have higher tf-idf values, indicating their significance and rarity across the corpus. The height of each bar represents the tf-idf score, demonstrating how the metric helps in identifying key terms within the text
 
-<img src="./src/img/tf-idf.png" width="90%" height="90%">
+<img src="./src/img/tf-idf.png" width="100%" height="100%">
 
-[Access the code](./src/img/tf-idf.ipynb)
+[Access the code](./src/tf-idf.ipynb)
 
 **Applying the concept**
 Given a book with pizza recipes in a collection of cooking books, what would be plausible tf and idf values for the following words? (Pick A or B)
-
-<img src="./src/img/pizza.png" width="80%" height="80%">
+![Alt text](./src/img/pizza.png)
 
 Here is the bar graph showing the term frequency (tf), inverse document frequency (idf), and tf-idf scores for the terms 'eggs', 'tomatoes', and 'salt' from the pizza cookbook document. 
 
 This visualization shows 'salt' as the most prominent ingredient in the pizza cookbook, with 'tomatoes' also being a significant but slightly less prominent ingredient. The tf-idf score for 'salt' remains the highest, indicating its importance in the context of the pizza cookbook, followed by 'tomatoes' and 'eggs'.
-<img src="./src/img/tf-idf-cook.png" width="100%" height="80%">
+<img src="./src/img/tf-idf-cook.png" width="100%" height="100%">
 [Access the code](./src/img/tf-idf-cook.ipynb)
 
 **Document classification with tf-idf**
 
-<img src="./src/img/classification.png" width="100%" height="60%">
+![Alt text](./src/img/classification.png)
 
 A classifier is an algorithm that takes in input a vector representation of an object, and outputs its "class".
 
 # Word embedding
 
 **Embeddings are the bridge** between human linguistic competence and the computational numeric processing. **Humans excel in understanding words**, while **computers excel in processing numbers**. Embeddings are where these two worlds converge, transforming words into numerical values.
+
 <img src="./src/img/embedding.png" width="70%" height="70%">
 
 
