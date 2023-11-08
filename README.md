@@ -176,6 +176,7 @@ A classifier is an algorithm that takes in input a vector representation of an o
 # Word embedding
 
 **Embeddings are the bridge** between human linguistic competence and the computational numeric processing. **Humans excel in understanding words**, while **computers excel in processing numbers**. Embeddings are where these two worlds converge, transforming words into numerical values.
+
 <img src="./src/img/embedding.png" width="70%" height="70%">
 
 
