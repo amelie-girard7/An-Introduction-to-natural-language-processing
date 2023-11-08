@@ -90,7 +90,7 @@ Abstractive summarization creates entirely new content. Below is an illustration
 #### Machine translation
 Machine translation stands as one of the most effective uses of NLP. Given the multitude of language combinations, an intermediary language is sometimes employed (for instance, Filipino to English, then English to Catalan). Google Translate now has the capability to interpret between 109 languages by crawling the web and learning from content that appears to be translated versions of other pages.
 
-<img src="./src/img/translation.png" width="60%" height="auto">
+<img src="./src/img/translation.png" width="40%" height="auto">
 
 #### Dialogue systems
 Dialogue systems represent perhaps the most sophisticated NLP technology emerging today. Key types include:
