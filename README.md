@@ -69,8 +69,8 @@ REX (Rosette Entity Extractor, BASIS Technology)
 
 #### Sentiment analysis
 Sentiment analysis is designed to determine the emotional tone behind a text, which could be anything from a tweet to an email:
-<img src="./src/img/sentiment.png" width="40%" height="auto">
 
+<img src="./src/img/sentiment.png" width="40%" height="auto">
 
 - At its most basic, it involves identifying particular keywords that indicate sentiment.
 - In a more advanced method, the entire text is transformed into a vector (known as "document representation"), which a classifier then uses to deduce the sentiment's category.
