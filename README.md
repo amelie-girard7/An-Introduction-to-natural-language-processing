@@ -116,7 +116,7 @@ A document vector is a numerical representation of an entire document, serving m
 The mathematical formulas for term frequency (tf) and inverse document frequency (idf), which are used together in the tf-idf weighting scheme, are as follows:
 
 1. **Term Frequency (tf)**: 
-The term frequency \( tf(t, d) \) of a term \( t \) in a document \( d \) is defined as the number of times that term \( t \) occurs in document \( d \), sometimes normalized by dividing by the total number of terms in the document:
+The term frequency $( tf(t, d) $) of a term \( t \) in a document \( d \) is defined as the number of times that term \( t \) occurs in document \( d \), sometimes normalized by dividing by the total number of terms in the document:
 
 <img src="./src/img/vectors-numbers.png" width="40%" height="40%">
 
@@ -135,7 +135,7 @@ idf(t, D) = \log \left( \frac{N}{1 + |\{d \in D : t \in d\}|} \right)
 $$
 
 Where:
-- ( N \) is the total number of documents in the corpus \( D \)
+- \( N \) is the total number of documents in the corpus \( D \)
 - \( |\{d \in D : t \in d\}| \) is the number of documents where the term \( t \) appears (i.e., \( tf(t, d) \neq 0 \))
 
 When you combine these two metrics, you get the tf-idf score for a term in a document, which is simply the product of tf and idf:
