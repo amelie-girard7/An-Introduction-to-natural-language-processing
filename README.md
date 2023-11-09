@@ -109,7 +109,7 @@ Additionally, Florence functions as a health monitoring and medication reminder 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
 
-<img src="./src/img/vectors.png" width="50%" height="50%">
+<img src="./src/img/vectors.png" width="60%" height="60%">
 
 ### tf-idf
 
@@ -125,10 +125,10 @@ tf(t, d) = \frac{\text{Number of times term } t \text{ appears in document } d}{
 $$
 
 
-In some cases, the term frequency is not normalized, especially when we are interested in the raw frequency.
+Sometimes, the term frequency is not normalized, especially when we are interested in the raw frequency.
 
 2. **Inverse Document Frequency (idf)**:
-The inverse document frequency is a measure of how much information the word provides, that is, whether the term is common or rare across all documents. It is calculated as the logarithm of the number of documents divided by the number of documents that contain the term \( t \). Plus one is often added to the denominator to avoid division by zero and then take the log:
+The inverse document frequency measures how much information the word provides, that is, whether the term is common or rare across all documents. It is calculated as the logarithm of the number of documents divided by the number of documents that contain the term \( t \). Plus one is often added to the denominator to avoid division by zero and then take the log:
 
 $$
 idf(t, D) = \log \left( \frac{N}{1 + |\{d \in D : t \in d\}|} \right)
