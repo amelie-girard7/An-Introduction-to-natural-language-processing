@@ -202,7 +202,7 @@ The more refined these embeddings are, the more capable the language model becom
 
 Embeddings are not just about mapping words to pairs of numbers, though. In practice, words are represented by vectors composed of many numbers, sometimes in the thousands, capturing a vast array of linguistic properties and relationships. These vectors can even represent entire sentences or longer text segments. The columns in these vectors can capture specific attributes of words, like size or color, as well as more abstract features detected by the model.
 
-Here's an example of what word embeddings might look like for the given words, using a hypothetical 5-dimensional space for simplicity:
+Here's an example of what word embeddings might look like for the given words, using a hypothetical 4-dimensional space for simplicity:
 | Word          | Dimension 1 | Dimension 2 | Dimension 3 | Dimension 4 |
 |---------------|-------------|-------------|-------------|-------------|
 | Apple (fruit) | 0.32        | -1.22       | 0.45        | 0.65        | 
