@@ -108,7 +108,8 @@ Additionally, Florence functions as a health monitoring and medication reminder 
 
 # Document vectors
 A document vector is a numerical representation of an entire document, serving multiple purposes. With a vocabulary consisting of 'V' words, a simple document vector can be created by tallying the frequency of each vocabulary word's occurrence within the document:
-<img src="./src/img/vectors.png" width="50%" height="50%">
+
+<img src="./src/img/vectors.png" width="30%" height="30%">
 
 ### tf-idf
 
