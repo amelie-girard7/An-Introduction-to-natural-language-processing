@@ -58,10 +58,10 @@ Some widely recognized NLP tasks are:
 - Machine translation
 - Dialogue systems
 
-Note: There are numerous additional tasks such as entailement recognition , relationship extraction, coreference resolution, wikification, …
+Note: There are numerous additional tasks, such as entailment recognition, relationship extraction, coreference resolution, wikification, …
 
 #### Named-entity recognition
-Named-entity recognition (NER) seeks to pinpoint and extract "named entities" from text, covering entities like person names, places, organizations, and various other specific categories. It's beneficial for categorizing text, detecting intent, identifying relationships, and build knowledge graphs.
+Named-entity recognition (NER) seeks to pinpoint and extract "named entities" from text, covering entities like person names, places, organizations, and various other specific categories. It's beneficial for categorizing text, detecting intent, identifying relationships, and building knowledge graphs.
 
 <img src="./src/img/ner.png" width="40%" height="auto">
 
@@ -76,13 +76,14 @@ Sentiment analysis is designed to determine the emotional tone behind a text, wh
 - In a more advanced method, the entire text is transformed into a vector (known as "document representation"), which a classifier then uses to deduce the sentiment's category.
 
 #### Topic modelling
-Topic modeling identifies the primary **topics** across a collection of documents, offering a snapshot of their collective content. Additionally, it ascertains **the proportion of these topics** within each document. 
+Topic modelling identifies the primary **topics** across a collection of documents, offering a snapshot of their collective content. Additionally, it ascertains **the proportion of these topics** within each document. 
 These topic proportions can be used to automatically categorise, classify, or cluster each document, aiding in the organisation of the collection.
 
 <img src="./src/img/topic-modelling.png" width="60%" height="auto">
 
 #### Summarisation
-Abstractive summarization creates entirely new content. Below is an illustration of extractive text summarisation provided by Salesforce .
+Abstractive summarization creates entirely new content. Below is an illustration of extractive text summarisation provided by Salesforce.
+
 <img src="./src/img/summarisation.png" width="40%" height="auto">
 (courtesy of Frase.io)
 
