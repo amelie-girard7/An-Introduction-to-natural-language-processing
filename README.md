@@ -166,7 +166,7 @@ Here is the bar graph showing the term frequency (tf), inverse document frequenc
 
 This visualization shows 'salt' as the most prominent ingredient in the pizza cookbook, with 'tomatoes' also being a significant but slightly less prominent ingredient. The tf-idf score for 'salt' remains the highest, indicating its importance in the context of the pizza cookbook, followed by 'tomatoes' and 'eggs'.
 <img src="./src/img/tf-idf-cook.png" width="100%" height="100%">
-[Access the code](./src/img/tf-idf-cook.ipynb)
+[Access the code](./src/tf-idf-cook.ipynb)
 
 **Document classification with tf-idf**
 
